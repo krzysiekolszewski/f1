@@ -1,0 +1,61 @@
+@import "grid";
+
+*{
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+}
+.container{
+  width: 100%;
+  max-width: 1010px;
+}
+
+// body{
+//     height: 100vh;
+//     width: 100vw;
+// }
+
+.header{
+    font-size: 5rem;
+    color: white;
+    height: 20vh;
+    background-color: black;
+    line-height: 20vh;
+ }
+
+ .navigation{
+     background-color: black;
+     height: 80vh;
+
+     nav > ul {
+         display: flex;
+         justify-content: space-around;
+         flex-direction: column;
+         list-style-type: none;
+
+         li{
+             text-transform: uppercase;
+             text-decoration: none;
+             border: 1px solid black;
+             padding: 1rem 0;
+             width: 100%;
+             text-align: center;
+             letter-spacing: '5px'
+         }
+
+     }
+ }
+
+
+.footer{
+    height: 5vh;
+    background-color: black;
+    line-height: 5vh;
+    text-align: center;
+    color: white;
+}
+
+.content{
+    overflow-y: scroll;
+    height: 80vh;
+    background-color: lightgrey;
+}
