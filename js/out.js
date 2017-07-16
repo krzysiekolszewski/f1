@@ -13969,9 +13969,113 @@ var Circuts = function (_React$Component5) {
         key: 'render',
         value: function render() {
             return _react2.default.createElement(
-                'p',
+                'div',
                 null,
-                'Circuts SVG + onlick onboard youtube action'
+                _react2.default.createElement(
+                    'div',
+                    { className: 'buttons' },
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'Australian Grand Prix, Melbourne'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'Chinese Grand Prix, Shanghai'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'Bahrain Grand Prix, Sakhir'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'Russian Grand Prix, Sochi'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'Spanish Grand Prix, Catalunya'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'Monaco Grand Prix, Monte Carlo'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'Canadian Grand Prix, Montreal'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'European Grand Prix, Baku'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'Austrian Grand Prix, Spielberg'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'British Grand Prix, Silverstone'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'Hungarian Grand Prix, Budapest'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'Belgian Grand Prix, Spa-Francorchamps'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'Italian Grand Prix, Monza'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'Singapore Grand Prix, Singapore'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'Malaysian Grand Prix, Kuala Lumpur'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'Japanese Grand Prix, Suzuka'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'United States Grand Prix, Austin'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'Mexican Grand Prix, Mexico City'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'Brazilian Grand Prix, Sao Paulo'
+                    ),
+                    _react2.default.createElement(
+                        'button',
+                        null,
+                        'Abu Dhabi Grand Prix, Yas Marina'
+                    )
+                ),
+                _react2.default.createElement('img', { id: 'world', src: 'images/worldLow.svg' })
             );
         }
     }]);
@@ -14245,7 +14349,7 @@ exports = module.exports = __webpack_require__(120)(undefined);
 
 
 // module
-exports.push([module.i, ".row:before,\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n\n.grid {\n  width: 100%;\n  max-width: 70rem;\n}\n\n* {\n  box-sizing: border-box;\n}\n\n[class*=\"col-\"] {\n  float: left;\n  min-height: 1px;\n  width: 100%;\n}\n\n@media (min-width: 20rem) {\n  .col-1 {\n    width: 8.33333%;\n  }\n\n  .col-2 {\n    width: 16.66667%;\n  }\n\n  .col-3 {\n    width: 25%;\n  }\n\n  .col-4 {\n    width: 33.33333%;\n  }\n\n  .col-5 {\n    width: 41.66667%;\n  }\n\n  .col-6 {\n    width: 50%;\n  }\n\n  .col-7 {\n    width: 58.33333%;\n  }\n\n  .col-8 {\n    width: 66.66667%;\n  }\n\n  .col-9 {\n    width: 75%;\n  }\n\n  .col-10 {\n    width: 83.33333%;\n  }\n\n  .col-11 {\n    width: 91.66667%;\n  }\n\n  .col-12 {\n    width: 100%;\n  }\n}\n\n.col-1 {\n  width: 8.33333%;\n}\n\n.col-2 {\n  width: 16.66667%;\n}\n\n.col-3 {\n  width: 25%;\n}\n\n.col-4 {\n  width: 33.33333%;\n}\n\n.col-5 {\n  width: 41.66667%;\n}\n\n.col-6 {\n  width: 50%;\n}\n\n.col-7 {\n  width: 58.33333%;\n}\n\n.col-8 {\n  width: 66.66667%;\n}\n\n.col-9 {\n  width: 75%;\n}\n\n.col-10 {\n  width: 83.33333%;\n}\n\n.col-11 {\n  width: 91.66667%;\n}\n\n.col-12 {\n  width: 100%;\n}\n\n* {\n  margin: 0 auto;\n  font-family: 'Quicksand', sans-serif;\n}\n\n.container {\n  width: 100%;\n  max-width: 1010px;\n}\n\n.header {\n  font-size: 5rem;\n  color: white;\n  height: 20vh;\n  background-color: black;\n  line-height: 20vh;\n}\n\n.navigation {\n  background-color: black;\n  height: 80vh;\n}\n\n.navigation nav > ul {\n  display: flex;\n  justify-content: space-around;\n  flex-direction: column;\n  list-style-type: none;\n}\n\n.navigation nav > ul li {\n  text-transform: uppercase;\n  text-decoration: none;\n  border: 1px solid black;\n  padding: 1rem 0;\n  width: 100%;\n  text-align: center;\n  letter-spacing: '5px';\n}\n\n.footer {\n  height: 5vh;\n  background-color: black;\n  line-height: 5vh;\n  text-align: center;\n  color: white;\n}\n\n.content {\n  overflow-y: scroll;\n  height: 80vh;\n  background-color: lightgrey;\n}", ""]);
+exports.push([module.i, ".row:before,\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n\n.grid {\n  width: 100%;\n  max-width: 70rem;\n}\n\n* {\n  box-sizing: border-box;\n}\n\n[class*=\"col-\"] {\n  float: left;\n  min-height: 1px;\n  width: 100%;\n}\n\n@media (min-width: 20rem) {\n  .col-1 {\n    width: 8.33333%;\n  }\n\n  .col-2 {\n    width: 16.66667%;\n  }\n\n  .col-3 {\n    width: 25%;\n  }\n\n  .col-4 {\n    width: 33.33333%;\n  }\n\n  .col-5 {\n    width: 41.66667%;\n  }\n\n  .col-6 {\n    width: 50%;\n  }\n\n  .col-7 {\n    width: 58.33333%;\n  }\n\n  .col-8 {\n    width: 66.66667%;\n  }\n\n  .col-9 {\n    width: 75%;\n  }\n\n  .col-10 {\n    width: 83.33333%;\n  }\n\n  .col-11 {\n    width: 91.66667%;\n  }\n\n  .col-12 {\n    width: 100%;\n  }\n}\n\n.col-1 {\n  width: 8.33333%;\n}\n\n.col-2 {\n  width: 16.66667%;\n}\n\n.col-3 {\n  width: 25%;\n}\n\n.col-4 {\n  width: 33.33333%;\n}\n\n.col-5 {\n  width: 41.66667%;\n}\n\n.col-6 {\n  width: 50%;\n}\n\n.col-7 {\n  width: 58.33333%;\n}\n\n.col-8 {\n  width: 66.66667%;\n}\n\n.col-9 {\n  width: 75%;\n}\n\n.col-10 {\n  width: 83.33333%;\n}\n\n.col-11 {\n  width: 91.66667%;\n}\n\n.col-12 {\n  width: 100%;\n}\n\n* {\n  margin: 0 auto;\n  font-family: 'Quicksand', sans-serif;\n}\n\n.container {\n  width: 100%;\n  max-width: 1010px;\n}\n\n.header {\n  font-size: 5rem;\n  color: white;\n  height: 20vh;\n  background-color: black;\n  line-height: 20vh;\n}\n\n.navigation {\n  background-color: black;\n  height: 80vh;\n}\n\n.navigation nav > ul {\n  display: flex;\n  justify-content: space-around;\n  flex-direction: column;\n  list-style-type: none;\n}\n\n.navigation nav > ul li {\n  text-transform: uppercase;\n  text-decoration: none;\n  border: 1px solid black;\n  padding: 1rem 0;\n  width: 100%;\n  text-align: center;\n  letter-spacing: '5px';\n}\n\n.footer {\n  height: 5vh;\n  background-color: black;\n  line-height: 5vh;\n  text-align: center;\n  color: white;\n}\n\n.content {\n  overflow-y: scroll;\n  height: 80vh;\n  background-color: lightgrey;\n}\n\n#world {\n  width: 100%;\n  border: 5px solid white;\n  height: 80vh;\n}", ""]);
 
 // exports
 

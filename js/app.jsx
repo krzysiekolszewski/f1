@@ -44,7 +44,32 @@ class Teams extends React.Component{
 class Circuts extends React.Component{
     render() {
         return (
-            <p>Circuts SVG + onlick onboard youtube action</p>
+            <div>
+                <div className='buttons'>
+                    <button>Australian Grand Prix, Melbourne</button>
+                    <button>Chinese Grand Prix, Shanghai</button>
+                    <button>Bahrain Grand Prix, Sakhir</button>
+                    <button>Russian Grand Prix, Sochi</button>
+                    <button>Spanish Grand Prix, Catalunya</button>
+                    <button>Monaco Grand Prix, Monte Carlo</button>
+                    <button>Canadian Grand Prix, Montreal</button>
+                    <button>European Grand Prix, Baku</button>
+                    <button>Austrian Grand Prix, Spielberg</button>
+                    <button>British Grand Prix, Silverstone</button>
+                    <button>Hungarian Grand Prix, Budapest</button>
+                    <button>Belgian Grand Prix, Spa-Francorchamps</button>
+                    <button>Italian Grand Prix, Monza</button>
+                    <button>Singapore Grand Prix, Singapore</button>
+                    <button>Malaysian Grand Prix, Kuala Lumpur</button>
+                    <button>Japanese Grand Prix, Suzuka</button>
+                    <button>United States Grand Prix, Austin</button>
+                    <button>Mexican Grand Prix, Mexico City</button>
+                    <button>Brazilian Grand Prix, Sao Paulo</button>
+                    <button>Abu Dhabi Grand Prix, Yas Marina</button>
+                </div>
+                <img id='world' src='images/worldLow.svg'></img>
+            </div>
+
         );
     }
 }
